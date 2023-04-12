@@ -1,0 +1,127 @@
+/* Define a cor de fundo da página */
+body {
+	background-color: #ffffff;
+  }
+  
+  /* Define o estilo de fonte para todo o conteúdo */
+  body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Define o estilo do container principal */
+  .container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px 20px;
+  }
+  
+  /* Define o estilo do título principal */
+  h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  /* Define o estilo do subtítulo */
+  h4 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 5px;
+  }
+  
+  /* Define o estilo da linha horizontal */
+  hr {
+	border: none;
+	border-top: 1px solid #ddd;
+	margin: 20px 0;
+  }
+  
+  /* Define o estilo do título de seção */
+  h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  /* Define o estilo do título de subseção */
+  h5 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  /* Define o estilo do nome da empresa */
+  h6 {
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 5px;
+	color: #555;
+  }
+  
+  /* Define o estilo do parágrafo */
+  p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+  }
+  
+  /* Define o estilo da lista não ordenada */
+  ul {
+	margin-bottom: 10px;
+	padding-left: 20px;
+  }
+  
+  /* Define o estilo do ícone de marca de verificação */
+  .fa-check {
+	color: #3e8f3e;
+	margin-right: 10px;
+  }
+  
+  /* Define o estilo do link */
+  a {
+	color: #337ab7;
+	text-decoration: none;
+  }
+  
+  /* Define o estilo do link quando estiver em foco */
+  a:focus, a:hover {
+	color: #23527c;
+	text-decoration: underline;
+  }
+/* Adiciona sombra no container principal */
+.container {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Adiciona sombra nas caixas dos conteúdos */
+  .col-md-4, .col-md-8 {
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Adiciona sombra nos links quando o cursor estiver sobre eles */
+  a:hover {
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Define o estilo do link */
+a {
+    background-color: var(--primary-color);
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 28px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Define o estilo do link quando estiver em foco ou hover */
+a:focus, a:hover {
+    background-color: var(--secondary-color);
+    color: #000000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
